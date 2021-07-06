@@ -1,0 +1,111 @@
+@import '~antd/dist/antd.css';
+
+h4 {
+  color: white;
+  font-weight: bold;
+}
+
+.Login-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('/images/backgroundL3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Login-input {
+  margin: 15px;
+  width: 400px;
+}
+
+.Sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+  border-radius: 5%;
+  border-color: white;
+  background-color: rgba(63, 169, 255, 0.5);
+  margin: 40px;
+}
+
+.Sign .Login-input {
+  width: 250px;
+}
+
+/**************** Menu ***************/
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding-left: 0px;
+}
+
+.logo {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* ********* Calendar events ******** */
+.events {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.events .ant-badge-status {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+.notes-month {
+  text-align: center;
+  font-size: 28px;
+}
+.notes-month section {
+  font-size: 28px;
+}
+
+/* **********Project css************* */
+.Input {
+  display: flex;
+  flex-direction: row;
+}
+
+.Owner-Date {
+  margin-top: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* (+) icones de la navbar alignées* */
+.icone-plus {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+/* *********** Side Bar  ************ */
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+/* ****** Composant NewTask ******** */
+/* placement des selectors .AssignedTo et DueDate */
+.AssignedTo-DueDate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
